@@ -1,0 +1,30 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "shx": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikhars/fylo-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikhars/fylo-landing-page/issues"
+  },
+  "homepage": "https://github.com/shikhars/fylo-landing-page#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
