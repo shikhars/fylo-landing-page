@@ -1,0 +1,1 @@
+{"mappings":"ACAA;;;;AAMA;;;;;AAKA","sources":["src/scss/style.scss","src/scss/globals/_boilerplate.scss"],"sourcesContent":["@forward 'globals';\n@forward 'util';","*,\n*::before,\n*::after {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n    padding: 0;\n}\n\nimg {\n    max-width: 100%;\n}"],"names":[],"version":3,"file":"index.7aacbf00.css.map"}
