@@ -1,0 +1,1 @@
+{"mappings":"ACAA;;;;AAMA;;;;;AAKA;;;;ACXA","sources":["src/scss/style.scss","src/scss/globals/_boilerplate.scss","src/scss/globals/_typography.scss"],"sourcesContent":["@forward 'globals';\n@forward 'util';",null,null],"names":[],"version":3,"file":"index.e8265c92.css.map","sourceRoot":"/__parcel_source_root/"}
