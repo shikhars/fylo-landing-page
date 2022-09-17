@@ -1,0 +1,21 @@
+@use '../util/' as u;
+
+.header {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+
+    &__logo {
+        scale: 0.5;
+    }
+
+    &__nav {
+        font-size: clamp(u.rem(13), 2vw, u.rem(40));
+    }
+}
+
+.main {
+    width: min(100% - u.rem(40), u.rem(1000));
+    margin-inline: auto;
+}

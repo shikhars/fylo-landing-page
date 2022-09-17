@@ -11,11 +11,6 @@ img {
   max-width: 100%;
 }
 
-a {
-  color: #000;
-  text-decoration: none;
-}
-
 :root {
   --primary-vdb: #070439;
   --primary-desatblue: #585989;
@@ -31,23 +26,7 @@ h1, h2, h3, p {
 }
 
 .header {
-  width: 100%;
-  align-items: center;
-  gap: 3rem;
   display: flex;
 }
 
-.header__logo {
-  scale: .5;
-}
-
-.header__nav {
-  font-size: clamp(.8125rem, 2vw, 2.5rem);
-}
-
-.main {
-  width: min(100% - 2.5rem, 62.5rem);
-  margin-inline: auto;
-}
-
-/*# sourceMappingURL=index.e8265c92.css.map */
+/*# sourceMappingURL=index.85b2224e.css.map */
