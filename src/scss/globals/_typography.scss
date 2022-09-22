@@ -1,8 +1,16 @@
+@use '../util/' as u;
+
 h1,
 h2,
 h3 {
     margin: 0;
     padding: 0;
+    font-family: u.$heading-cta-nav;
+    font-weight: u.$fw-700;
+}
+
+h2 {
+    font-size: 1.2rem;
 }
 
 p {
@@ -10,3 +18,12 @@ p {
     padding: 0;
 }
 
+button {
+    font-family: u.$heading-cta-nav;
+    font-weight: u.$fw-400;
+}
+
+nav {
+    font-family: u.$heading-cta-nav;
+    font-weight: u.$fw-400;
+}
