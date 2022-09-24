@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
 
         &--btn {
             background-color: var(--accent-brightblue);
@@ -36,54 +36,191 @@
         }
     }
 
-    &__lower {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        background-image: url(/src/images/bg-curve-mobile.svg);
+}
+
+.main__lower {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .curve-img {
+        width: 100%;
+        height: initial;
+        background-image: url("/src/images/bg-curve-mobile.svg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
+        padding-bottom: u.rem(80);
+    }
+
+    .bgr-clr {
+        background-color: var(--neutral-lgb);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &--link {
+        text-align: center;
+    }
+
+    &--img {
+        margin-bottom: 3rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    a {
+        color: var(--accent-mcyan);
+        text-decoration: underline;
+    }
+
+    &--wrapper {
+        border-radius: 0.5rem;
+        padding: 2rem;
+        
+        .inner-wrapper {
+            box-shadow: 0 0 0.5rem -0.1rem hsl(0, 29%, 93%);
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 0.5rem;
+        }
+
+        .quote-img {
+            position: relative;
+            left: u.rem(-120);
+            top: u.rem(20);
+        }
+    }
+
+    &--quote {
+        text-align: left;
+        font-size: small;
+    }
+
+    &--avatar {
+        display: flex;
+        text-align: left;
+        gap: 1rem;
+        position: relative;
+        left: u.rem(45);
 
 
-        &--img {
+        h3 {
+            font-size: medium;
+        }
+
+        .founder {
+            font-size: x-small;
             margin-bottom: 3rem;
         }
-
-        a {
-            color: var(--accent-mcyan);
-            text-decoration: underline;
-        }
-        
-        &--quote {
-            text-align: left;
-        }
-
-        &--avatar {
-            display: flex;
-            text-align: left;
-            gap: 1rem;
-
-
-            h3 {
-                font-size: medium;
-            }
-
-            .founder {
-                font-size: x-small;
-            }
-        }
-
-        &--kyle {
-            border-radius: 50%;
-            width: u.rem(30);
-            height: u.rem(30);
-        }
     }
 
-    &__access {
+    &--kyle {
+        border-radius: 50%;
+        width: u.rem(30);
+        height: u.rem(30);
+    }
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--primary-desatblue);
+    color: hsl(0, 0%, 100%);
+    padding: 3rem;
+    margin-inline: auto;
+    text-align: center;
+
+    &__btn {
+        background-color: var(--accent-brightblue);
+        color: var(--neutral-lgb);
+        padding: 1rem;
+        border: none;
+        border-radius: 0.1rem;
+    }
+}
+
+.footer-main {
+    background-color: var(--primary-vdb);
+    color: hsl(0, 0%, 100%);
+    padding-left: 2rem;
+
+    svg {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .phone {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        align-content: flex-start;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .email {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        align-content: flex-start;
+        margin-bottom: 2rem;
+
+    }
+
+    .links {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        width: 100%;
+        gap: 1.5rem;
+
+        a {
+            text-decoration: none;
+            color: hsl(0, 0%, 100%);
+        }
+
+        .blog {
+            margin-bottom: 1.5rem;
+        }
+
+        .privacy {
+            margin-bottom: 4rem;
+        }
+
     }
+
+    .so-copy {
+        width: 100%;
+
+        .social {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            text-align: center;
+
+            i+i {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}
+
+.icon,
+.icon-text {
+    fill: hsl(0, 0%, 100%);
+}
+
+i {
+    font-size: 1rem;
+    width: u.rem(29);
+    height: u.rem(29);
+    padding: 0.325rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+
 }
