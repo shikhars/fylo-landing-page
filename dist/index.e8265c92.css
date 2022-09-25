@@ -75,7 +75,7 @@ nav {
   display: grid;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 62.5em) {
   .header {
     max-width: 62.5rem;
     margin-left: 8rem;
@@ -86,7 +86,7 @@ nav {
   scale: 50%;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .header__logo {
     scale: 70%;
   }
@@ -115,7 +115,7 @@ nav {
   display: flex;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__upper {
     flex-direction: row-reverse;
   }
@@ -135,7 +135,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__upper--desk {
     width: 50%;
     text-align: left;
@@ -161,7 +161,7 @@ nav {
   padding: 1rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__upper--btn {
     width: 40%;
     height: 77%;
@@ -193,7 +193,7 @@ nav {
   display: flex;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .bgr-clr .flex {
     flex-direction: row-reverse;
   }
@@ -203,7 +203,7 @@ nav {
   margin-bottom: 3rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .bgr-clr .flex .illus-two {
     width: 40%;
     padding: 8rem 4rem 8rem 3rem;
@@ -214,7 +214,7 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .bgr-clr .flex .content-wrapper {
     width: 60%;
     padding: 4rem;
@@ -232,7 +232,7 @@ nav {
   text-align: center;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .bgr-clr .flex .content-wrapper .content .arrow-link {
     text-align: left;
   }
@@ -253,7 +253,7 @@ nav {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .bgr-clr .flex .content-wrapper .content h2 {
     text-align: left;
     font-size: xx-large;
@@ -265,7 +265,7 @@ nav {
   padding: 2rem 1rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .main__lower .outer-wrapper {
     width: 70%;
   }
@@ -323,7 +323,7 @@ nav {
   display: flex;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .access .desk-left {
     width: 50%;
     padding-top: 2rem;
@@ -340,7 +340,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .access .desk-right {
     width: 50%;
     padding: 2rem 4rem;
@@ -361,9 +361,15 @@ nav {
   padding: 1rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 62.5em) {
   .access__btn {
-    width: 40%;
+    width: 60%;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .access__btn {
+    width: 50%;
   }
 }
 
@@ -374,7 +380,7 @@ nav {
   padding-left: 2rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .footer-main {
     padding: 2rem;
   }
@@ -385,7 +391,7 @@ nav {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .footer-main .wrap-outer {
     gap: 1rem;
     display: flex;
@@ -419,7 +425,7 @@ nav {
   display: flex;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .footer-main .wrap-outer .links {
     width: 20%;
   }
@@ -447,7 +453,7 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 52.5em) {
+@media (min-width: 50em) {
   .footer-main .wrap-outer .so-copy {
     width: 30%;
   }

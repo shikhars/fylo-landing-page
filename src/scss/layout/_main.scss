@@ -9,7 +9,7 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
 
-    @include u.breakpoint(medium) {
+    @include u.breakpoint(large) {
         max-width: u.rem(1000);
         margin-left: 8rem;
     }
@@ -291,8 +291,12 @@
         border-radius: 0.1rem;
         width: 100%;
 
-        @include u.breakpoint(medium) {
-            width: 40%;
+        @include u.breakpoint(large) {
+            width: 60%;
+        }
+
+        @include u.breakpoint(larger) {
+            width: 50%;
         }
     }
 }
