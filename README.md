@@ -30,7 +30,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 - HTML5
 - SCSS
-- CSS Custom Prpoerties
+- CSS Custom Properties
 - Sass Built-in modules (sass:map and sass:math)
 - Flexbox
 - CSS Grid
