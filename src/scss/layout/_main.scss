@@ -9,15 +9,14 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
 
-    @include u.breakpoint(large) {
+    @include u.breakpoint(medium) {
         max-width: u.rem(1000);
-        margin-left: 8rem;
     }
 
     &__logo {
         scale: 50%;
 
-        @include u.breakpoint(medium) {
+        @include u.breakpoint(large) {
             scale: 70%;
         }
 

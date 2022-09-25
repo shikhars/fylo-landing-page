@@ -75,10 +75,9 @@ nav {
   display: grid;
 }
 
-@media (min-width: 62.5em) {
+@media (min-width: 50em) {
   .header {
     max-width: 62.5rem;
-    margin-left: 8rem;
   }
 }
 
@@ -86,7 +85,7 @@ nav {
   scale: 50%;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 62.5em) {
   .header__logo {
     scale: 70%;
   }
@@ -489,4 +488,4 @@ i:hover {
   border: 1px solid #3065f8;
 }
 
-/*# sourceMappingURL=index.069e1154.css.map */
+/*# sourceMappingURL=index.21b49716.css.map */
