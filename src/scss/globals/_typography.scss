@@ -20,7 +20,13 @@ p {
 
 button {
     font-family: u.$heading-cta-nav;
-    font-weight: u.$fw-400;
+    font-weight: u.$fw-700;
+    opacity: 1;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 nav {

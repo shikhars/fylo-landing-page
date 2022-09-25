@@ -161,6 +161,11 @@
                         a {
                             color: var(--accent-mcyan);
                             text-decoration: underline;
+                            opacity: 1;
+                        }
+
+                        a:hover {
+                            opacity: 0.6;
                         }
                     }
 
@@ -195,6 +200,7 @@
                 position: relative;
                 left: 2.5rem;
                 top: 1.2rem;
+                opacity: 1;
             }
 
             .testimonial {
@@ -348,6 +354,12 @@
 
             @include u.breakpoint(medium) {
                 width: 20%;
+
+
+                a:hover {
+                    cursor: pointer;
+                    color: hsl(224, 93%, 58%);
+                }
             }
 
             a {
@@ -399,4 +411,10 @@ i {
     padding: 0.325rem;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
+}
+
+i:hover {
+    border: 1px solid hsl(224, 93%, 58%);
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
 }

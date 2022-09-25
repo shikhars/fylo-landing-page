@@ -49,7 +49,18 @@ p {
   padding: 0;
 }
 
-button, nav {
+button {
+  opacity: 1;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+nav {
   font-family: Raleway, sans-serif;
   font-weight: 400;
 }
@@ -229,7 +240,12 @@ button, nav {
 
 .main__lower .bgr-clr .flex .content-wrapper .content .arrow-link a {
   color: var(--accent-mcyan);
+  opacity: 1;
   text-decoration: underline;
+}
+
+.main__lower .bgr-clr .flex .content-wrapper .content .arrow-link a:hover {
+  opacity: .6;
 }
 
 .main__lower .bgr-clr .flex .content-wrapper .content h2 {
@@ -262,6 +278,7 @@ button, nav {
 }
 
 .main__lower .outer-wrapper .inner-wrapper .quote-img {
+  opacity: 1;
   position: relative;
   top: 1.2rem;
   left: 2.5rem;
@@ -406,6 +423,11 @@ button, nav {
   .footer-main .wrap-outer .links {
     width: 20%;
   }
+
+  .footer-main .wrap-outer .links a:hover {
+    cursor: pointer;
+    color: #3065f8;
+  }
 }
 
 .footer-main .wrap-outer .links a {
@@ -455,4 +477,10 @@ i {
   font-size: 1rem;
 }
 
-/*# sourceMappingURL=index.189a267f.css.map */
+i:hover {
+  color: #3065f8;
+  cursor: pointer;
+  border: 1px solid #3065f8;
+}
+
+/*# sourceMappingURL=index.63a1f2c4.css.map */
