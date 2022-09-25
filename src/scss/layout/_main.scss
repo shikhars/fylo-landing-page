@@ -13,6 +13,14 @@
         max-width: u.rem(1000);
     }
 
+    @include u.breakpoint(large) {
+        margin-left: 2rem;
+    }
+
+    @include u.breakpoint(larger) {
+        margin-left: 8rem;
+    }
+
     &__logo {
         scale: 50%;
 
