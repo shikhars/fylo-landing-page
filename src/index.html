@@ -35,7 +35,7 @@
                 <div class="form-btn">
                     <form class="top-form" action="#">
                         <label for="email-one"></label>
-                        <input type="email" name="email" id="email-one" placeholder="Enter your email.." required>
+                        <input title="Please check your email" pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9._+-]+\.[a-z]{2,}" type="email" required name="email" id="email-one" placeholder="Enter your email..">
                     </form>
                     <button type="submit" class="main__upper--btn">Get Started</button>
                 </div>
@@ -100,9 +100,9 @@
         <div class="desk-right">
             <form action="#">
                 <label for="email-two"></label>
-                <input type="email" name="email" id="email-two" placeholder="email@example.com">
+                <input title="Please check your email" pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9._+-]+\.[a-z]{2,}" type="email" required name="email" id="email-two" placeholder="email@example.com">
             </form>
-            <button class="access__btn">Get Started For Free</button>
+            <button type="submit" class="access__btn">Get Started For Free</button>
         </div>
     </section>
 
